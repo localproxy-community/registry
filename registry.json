@@ -1,4 +1,10 @@
 {
   "version": "1.0",
-  "extensions": {}
+  "extensions": {
+    "simple-pii-guard": {
+      "name": "Simple PII Guard",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/localproxy-community/simple-pii-guard/main/index.js"
+    }
+  }
 }
