@@ -4,6 +4,9 @@
     "simple-pii-guard": {
       "name": "Simple PII Guard",
       "version": "1.0.0",
+      "description": "Blocks requests containing potential PII (Social Security Numbers) before they reach AI services",
+      "author": "LocalProxy Community",
+      "homepage": "https://github.com/localproxy-community/simple-pii-guard",
       "url": "https://raw.githubusercontent.com/localproxy-community/simple-pii-guard/main/index.js"
     }
   }
