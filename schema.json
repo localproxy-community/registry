@@ -15,7 +15,16 @@
               "type": "string"
             },
             "repo": {
-              "type": "string"
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$"
+                },
+                {
+                  "type": "string",
+                  "format": "uri"
+                }
+              ]
             }
           },
           "required": ["name", "repo"],
